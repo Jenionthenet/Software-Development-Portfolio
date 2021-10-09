@@ -2670,30 +2670,7 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	.pop-out
-    {
-        transition: transform .5s;
-    }
-
-    .pop-out:hover
-    {
-        -ms-transform: scale(2, 2);
-        -webkit-transform: scale(2, 2);
-        transform: scale(2, 2);
-    }
-
-	.pop-out-small
-    {
-        transition: transform .5s;
-    }
-
-    .pop-out-small:hover
-    {
-        -ms-transform: scale(1.5, 1.5);
-        -webkit-transform: scale(1.5, 1.5);
-        transform: scale(1.5, 1.5);
-    }
-
+	
 	.skills {
 		height: 55px;
 		margin: 15px;
@@ -2723,3 +2700,70 @@ input, select, textarea {
 	.contactInfo {
 		margin: 45px;
 	}
+
+	/* body {
+		color:rgba(255, 255, 255, 0.05)
+	} */
+
+	/* @media screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+		.pop-out
+    {
+        transition: none;
+    }
+
+    .pop-out:hover
+    {
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+	.pop-out-small
+    {
+        transition:none;
+    }
+
+    .pop-out-small:hover
+    {
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);;
+        transform: scale(1, 1);;
+    }
+
+	} */
+
+	@media screen and (min-width: 960px) {
+		.pop-out
+		{
+			transition: transform .5s;
+		}
+	
+		.pop-out:hover
+		{
+			-ms-transform: scale(2, 2);
+			-webkit-transform: scale(2, 2);
+			transform: scale(2, 2);
+		}
+	
+		.pop-out-small
+		{
+			transition: transform .5s;
+		}
+	
+		.pop-out-small:hover
+		{
+			-ms-transform: scale(1.5, 1.5);
+			-webkit-transform: scale(1.5, 1.5);
+			transform: scale(1.5, 1.5);
+		}
+	
+	}
+
+
+/* .responsive img {
+	height: 150px;
+	width: 50px;
+}	
+.responsive {
+	display: flex;
+} */
